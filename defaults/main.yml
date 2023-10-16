@@ -1,0 +1,11 @@
+# username to create for subsequent SSH access
+raspi_user: raspi_user
+
+# login password for raspi_user (override this!)
+raspi_user_password: raspberry
+
+# host address for the rpi target
+raspi_host: "{{ ansible_host }}"
+
+# hostname for the rpi target
+raspi_hostname: raspi
